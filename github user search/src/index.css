@@ -1,0 +1,42 @@
+@font-face {
+  font-family:"SpaceMono" ;
+  src: url(./assets/fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"SpaceMono" ;
+}
+
+html{
+  width: 100%;
+  height:100%;
+}
+
+body{
+  width: 100%;
+  height:100%;
+  background-color: #F2F2F2;
+}
+
+#root{
+  width: 100%;
+  height:100%;
+}
+
+@media only screen and(max-width:425x) {
+  html{
+    height: auto;
+  }
+
+  body{
+    height: auto;
+  }
+
+  #root{
+    height: auto;
+  }
+  
+}

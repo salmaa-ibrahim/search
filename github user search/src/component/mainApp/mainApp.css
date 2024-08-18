@@ -1,0 +1,28 @@
+.Github{
+    /* width: 50%;
+    height: 70%; */
+    width: 730px;
+    height: 583px;
+    /* background-color: #F2F2F2; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    /* justify-content: space-between; */
+
+    
+  }
+  
+  
+  @media only screen and (max-width:425px) {
+    .Github{
+        width: 96%;
+        height: 670px;
+    }
+
+    .darkGithub{
+      width: 96%;
+      height: 670px;
+  }
+    
+  }

@@ -1,0 +1,327 @@
+.lightContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    row-gap: 30px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 35px;
+    column-gap: 37px;
+    background-color: #FFFF;
+}
+
+.darkContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    row-gap: 30px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 35px;
+    column-gap: 37px;
+    background-color: #1E2A47;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+}
+
+
+.userTop{
+    display: flex;
+    column-gap: 37px;
+    align-items: center;
+}
+
+.userTop>img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.infoTop{
+    width: 480px;
+    display: flex;
+    column-gap: 200px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.lightName{
+    font-weight: bold;
+    font-size: 26px;
+    color: #2B3442;
+}
+
+.darkName{
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.userName{
+    font-size: 16px;
+    color: #0079FF;
+}
+
+.lightDateOfJoin{
+    font-size: 15px;
+    color: #697C9A;
+    padding-top: 11px;
+}
+
+.darkDateOfJoin{
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 11px;
+}
+
+.lightBio{
+    font-size: 15px;
+    color: #4B6A9B;
+    padding-left: 140px;
+}
+
+.darkBio{
+    font-size: 15px;
+    color: #98a6bd;
+    padding-left: 140px;
+}
+
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding-left: 140px;
+}
+
+.infoBotom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.lightInteraction{
+    background-color: #F6F8FF;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+.darkInteraction{
+    background-color: #141D2F;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+/* .interaction-1 > label{
+    font-size: 13px;
+    color: #4B6A9B;
+} */
+
+.lightLable{
+    font-size: 13px;
+    color: #4B6A9B;
+}
+
+.darkLable{
+    font-size: 13px;
+    color: #FFFFFF;
+    
+}
+
+/* .interaction-1 > p{
+    font-size: 22px;
+    color: #2B3442;
+    font-weight: bold;
+} */
+
+.lightP{
+    font-size: 22px;
+    color: #2B3442;
+    font-weight: bold;
+}
+
+.darkP{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contactInfo{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 30px;
+    row-gap: 17px;
+    width: 100%;
+    
+
+}
+
+.contactInfo-1{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.contactInfo-1 >img{
+    cursor: pointer;
+}
+.contactInfo-1 >a{
+    font-size: 8px;
+    color:#4B6A9B;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+a:hover{
+    color:#314361;
+}
+
+.lightInfo{
+    font-size: 15px;
+    color:#4B6A9B
+}
+
+.darkInfo{
+    font-size: 15px;
+    color:#FFFFFF
+}
+
+.contactInfo-1 >p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:425px) {
+    .lightContent{
+        flex-direction: column;
+        height: auto;
+        padding: 24px;
+    }
+
+    .darkContent{
+        flex-direction: column;
+        height: auto;
+        padding: 24px;
+    }
+    /* .user{
+        row-gap: 33px;
+    } */
+
+    .userImg{
+        display: flex;
+        column-gap: 19px;
+    }
+    .userImg> img{
+        height: 117px;
+        width: 117px;
+    }
+
+    .infoTop{
+        flex-direction: column;
+    }
+
+    .lightName{
+        font-size: 16px;
+    }
+
+    .darkName{
+        font-size: 16px;
+    }
+
+    .userName ,.lightDateOfJoin, .lightBio{
+        font-size: 13px;
+    }
+
+    .darkDateOfJoin, .darkBio{
+        font-size: 13px;
+    }
+
+    .lightBio , .darkBio{
+        padding-left: 0;
+    }
+
+    /* .darktBio{
+        padding-left: 0;
+    } */
+
+    .userInfo{
+        padding-left: 0;
+    }
+
+    .lightInteraction{
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    .darkInteraction{
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    /* .interaction-1 >label{
+        font-size: 11px;
+    } */
+    /* .interaction-1 >p{
+        font-size: 14px;
+    } */
+
+    .lightLable{
+        font-size: 11px;
+    }
+
+    .darkLable{
+        font-size: 11px;
+    }
+
+    .lightP{
+        font-size: 14px;
+    }
+
+    .darkP{
+        font-size: 14px;
+    }
+
+    .contactInfo{
+        grid-template-columns: auto ;
+    }
+
+    /* .contactInfo-1>p{
+        font-size: 13px;
+    } */
+
+    .lightInfo{
+        font-size: 13px;
+    }
+
+    .darkInfo{
+        font-size: 13px;
+    }
+
+
+
+  
+   
+}
+
+

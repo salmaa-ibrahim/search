@@ -1,0 +1,118 @@
+.lightNavbar{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.darkNavbar{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lightNavbar>a{
+    text-decoration: none;
+    color:#222731;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+.darkNavbar>a{
+    text-decoration: none;
+    color:#FFF;
+    font-weight: bold;
+    font-size: 26px;
+}
+.lightMood{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.darkMood{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.lightMoodState{
+    position: relative;
+    width:40px ;
+    height:27px ;
+    display: flex;
+    align-items: center;
+}
+
+.darkMoodState{
+    position: relative;
+    width:40px ;
+    height:27px ;
+    display: flex;
+    align-items: center;
+}
+.check{
+    position: absolute;
+    cursor: pointer;
+    /* top:5px; */
+    width: 40px;
+    opacity: 0;
+}
+
+.check:hover{
+    text-decoration: underline;
+}
+
+.lightMoodState > button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    color: #697C9A;
+    cursor: pointer;
+}
+
+
+
+.darkMoodState > button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    color: #697C9A;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+}
+
+.moodImg{
+    display: flex;
+    align-items: center;
+}
+
+.darkDark{
+    display: none;
+}
+
+.lightLight{
+    display: none;
+}
+
+.darkmoon{
+    display: none;
+}
+
+.lightSun{
+    display: none;
+}
+
+
+/* @media only screen and (max-width:425px) {
+    #navbar{
+        width: 100%;
+    }
+    
+} */
