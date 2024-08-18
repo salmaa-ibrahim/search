@@ -309,7 +309,8 @@ a:hover{
     /* .contactInfo-1>p{
         font-size: 13px;
     } */
-
+    .contactInfo-1 >a{
+        color:#FFFFFF;}
     .lightInfo{
         font-size: 13px;
     }
