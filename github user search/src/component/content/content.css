@@ -188,7 +188,7 @@
 }
 .contactInfo-1 >a{
     font-size: 8px;
-    color:#4B6A9B;
+    /* color:#4B6A9B; */
     flex-wrap: wrap;
     cursor: pointer;
 }
@@ -207,7 +207,7 @@ a:hover{
     color:#FFFFFF
 }
 
-.contactInfo-1 >p:hover{
+.contactInfo-1 >a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
